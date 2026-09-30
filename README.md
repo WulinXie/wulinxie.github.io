@@ -25,11 +25,11 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 ## GitHub Pages
 
-公开主页：https://aba122.github.io/
+公开主页：https://wulinxie.github.io/
 
-源码仓库：https://github.com/aba122/aba122.github.io
+源码仓库：https://github.com/WulinXie/wulinxie.github.io
 
-GitHub Pages 使用 `main` 分支的根目录发布。旧版主页保留在 `master` 分支。
+GitHub Pages 使用 `main` 分支的根目录发布。原个人主页仓库保留在 `aba122/aba122.github.io`。
 
 更新内容后运行 `python3 build.py`，将修改提交并推送到 `main`。GitHub Pages 会自动发布。`index.html` 已生成，线上无需 Python 环境或构建依赖。`.nojekyll` 用于直接发布静态资源。
 
