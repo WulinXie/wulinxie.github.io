@@ -95,7 +95,6 @@ html=f'''<!DOCTYPE html>
 <section id="experience">{section_title('03','Research experience','实习与科研经历')}<div class="experience-list">{''.join(exp(e) for e in experience)}</div></section>
 <section id="education">{section_title('04','Education','教育背景')}
 <div class="education-entry"><span class="education-year">2025 — 2028</span><div><h3>{bi('University of Chinese Academy of Sciences','中国科学院大学')}</h3><p>{bi('Institute of Automation, Chinese Academy of Sciences','中国科学院自动化研究所')}</p><p>{bi('M.Sc. in Pattern Recognition and Intelligent Systems · Expected Jul. 2028','模式识别与智能系统硕士 · 预计 2028 年 7 月毕业')}</p></div></div>
-<div class="education-entry"><span class="education-year">2021 — 2025</span><div><h3>{bi('Guizhou University','贵州大学')}</h3><p>{bi('B.Sc. in Information Management and Information Systems','信息管理与信息系统学士')}</p><p>GPA: <strong>4.25 / 5.0</strong></p></div></div>
 </section>
 <section id="contact" class="contact-section"><p class="eyebrow">{bi('LET’S CONNECT','保持联系')}</p><h2>{bi('Building models that do more.','让模型理解更多，也做到更多。')}</h2><p>{bi('I’m looking for research internships in foundation models, agents, and multimodal learning. If our interests overlap, I’d love to hear from you.','我正在寻找基座模型、Agent 与多模态方向的研究实习机会，欢迎交流与联系。')}</p>{link('mailto:xwl1085930920@gmail.com','xwl1085930920@gmail.com <span aria-hidden="true">↗</span>','contact-email')}</section>
 </main>
