@@ -41,7 +41,7 @@ Mac 桌面的 `Wulin-Xie-Homepage` 为本地同步副本，可直接打开 `inde
 - VI-Bench 为 NeurIPS 2026；MME-Unify 为 ICLR 2026；Q-Hawkeye 为 AAAI 2027 Under Review；DivOPD 为 ICLR 2027 Under Review。未将投稿状态写成录用。
 - MME-VideoOCR 与 MM-RLHF 使用 Core Contributor，不将贡献标记写成共同一作。
 - DivOPD 的 1.87× 指学习器 GPU 效率，不是端到端训练加速。
-- 论文图片来自作者现有公开论文 PDF；Paper / Code / Project 按对应原始来源链接。UPDGD 使用文字封面。
+- 论文图片来自作者现有公开论文 PDF；Paper / Code / Project 按对应原始来源链接。UPDGD-Net 使用 ACM 正式版论文 Figure 1（PDF 第 4 页，出版页码 6659）的总体框架图，来源：https://doi.org/10.1145/3664647.3680932。
 - 图标来自现有简历；头像为本人提供的个人照片。
 - 布局与页脚图片参考 [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template)，参考版本 `3e688b9`。页面底部保留署名链接；HTML、CSS 和交互为本主页重新实现。
 
