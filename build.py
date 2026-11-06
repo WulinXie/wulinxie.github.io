@@ -40,7 +40,7 @@ def exp(row):
     logo,en,zh,role,dates=row
     return f'''<article class="experience"><div class="org-logo {"casia-mark" if logo == "casia.png" else ""}"><img src="assets/logos/{logo}" alt="{en}" loading="lazy" width="64" height="64"></div><div><div class="experience-heading"><h3>{bi(en,zh)}</h3><span class="dates">{dates}</span></div><p class="position">{bi(*role)}</p></div></article>'''
 
-nav=''.join(f'<a href="#{id}"><span class="nav-dot"></span>{bi(en,zh)}</a>' for id,en,zh in [('about','About','关于'),('research','Research','研究'),('publications','Publications','论文'),('experience','Experience','经历'),('education','Education','教育'),('contact','Contact','联系')])
+nav=''.join(f'<a href="#{id}"><span class="nav-dot"></span>{bi(en,zh)}</a>' for id,en,zh in [('about','About','关于'),('research','Research','研究'),('publications','Publications','论文'),('experience','Experience','经历')])
 html=f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,10 +82,7 @@ html=f'''<!DOCTYPE html>
 <details class="other-papers"><summary>{bi('Additional research & journal articles','其他研究与期刊论文')} <span aria-hidden="true">+</span></summary><ul><li><strong>A Survey of Unified Multimodal Understanding and Generation: Advances and Challenges</strong><p>Y. Yang, H. Tian, Y. Shi, <strong>Wulin Xie</strong>, et al. · TPAMI · Under Review</p></li><li><strong>Confidence-Enhanced Dual-Space Semantic Alignment for Partial Multi-View Incomplete Multi-Label Classification</strong><p>J. Chen, <strong>Wulin Xie</strong>, et al. · Knowledge-Based Systems</p></li><li><strong>Cross-modal mapping: Mitigating the modality gap for few-shot classification</strong><p>X. Yang, <strong>Wulin Xie</strong>, et al. · Pattern Recognition</p></li></ul></details>
 </section>
 <section id="experience">{section_title('03','Research experience','实习与科研经历')}<div class="experience-list">{''.join(exp(e) for e in experience)}</div></section>
-<section id="education">{section_title('04','Education','教育背景')}
-<div class="education-entry"><span class="education-year">2025 — 2028</span><div><h3>{bi('University of Chinese Academy of Sciences','中国科学院大学')}</h3><p>{bi('Institute of Automation, Chinese Academy of Sciences','中国科学院自动化研究所')}</p><p>{bi('M.Sc. in Pattern Recognition and Intelligent Systems · Expected Jul. 2028','模式识别与智能系统硕士 · 预计 2028 年 7 月毕业')}</p></div></div>
-</section>
-<section id="contact" class="contact-section"><p class="eyebrow">{bi('LET’S CONNECT','保持联系')}</p><h2>{bi('Building models that do more.','让模型理解更多，也做到更多。')}</h2><p>{bi('I’m looking for research internships in foundation models, agents, and multimodal learning. If our interests overlap, I’d love to hear from you.','我正在寻找基座模型、Agent 与多模态方向的研究实习机会，欢迎交流与联系。')}</p>{link('mailto:xwl1085930920@gmail.com','xwl1085930920@gmail.com <span aria-hidden="true">↗</span>','contact-email')}</section>
+
 </main>
 <footer class="mountain-footer"><div class="footer-overlay"><p class="footer-title">{bi('Keep exploring.','保持好奇，持续探索。')}</p><p>Wulin Xie</p><div class="footer-meta"><span>{bi('Updated September 2026','更新于 2026 年 9 月')}</span><span>{bi('Design inspired by','设计参考')} {link('https://github.com/w-r-s/academic-homepage-template','w-r-s / academic-homepage-template')}</span></div></div></footer>
 <a id="back-top" href="#about" aria-label="Back to top">↑</a>
